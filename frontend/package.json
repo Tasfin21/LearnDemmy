@@ -1,0 +1,51 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^41.4.2",
+    "@ckeditor/ckeditor5-react": "^9.5.0",
+    "axios": "^1.7.7",
+    "chart.js": "^4.4.4",
+    "dayjs": "^1.11.13",
+    "framer-motion": "^14.0.0",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^1.52.0",
+    "moment": "^2.31.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.0",
+    "react-icons": "^5.7.0",
+    "react-photo-album": "^2.4.1",
+    "react-player": "^2.16.0",
+    "react-rater": "^6.0.5",
+    "react-router-dom": "^6.26.2",
+    "sweetalert2": "^11.14.1",
+    "yet-another-react-lightbox": "^3.21.4",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.6.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.35.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.11",
+    "postcss": "^8.5.28",
+    "prettier": "^3.3.3",
+    "simple-zustand-devtools": "^1.1.0",
+    "tailwindcss": "^3.4.19",
+    "vite": "^5.4.8"
+  }
+}
