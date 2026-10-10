@@ -15,6 +15,21 @@ The application is being developed with a focus on backend engineering, REST API
 ## Front-end - React, javascript, Tailwind css 
 ## Database - PostgreSQL
 
+### homepage 
+![Home](screenshots/Home.png)
+
+### courses 
+![Course](screenshots/FeatureCourses.png)
+
+### Dashboard 
+![studentDashboard](screenshots/StudentDashboard.png)
+
+### profilesettings 
+![profile](screenshots/StudentProfileSettings.png)
+
+### cart 
+![cart](screenshots/Cart.png)
+
 ## Project Structure
 
 The project is organized into separate backend and frontend applications.
